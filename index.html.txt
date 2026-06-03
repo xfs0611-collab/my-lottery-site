@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>六合彩分析预测中心</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+header{
+    background:#1e293b;
+    color:#fff;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#334155;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+}
+
+.container{
+    width:95%;
+    max-width:1200px;
+    margin:20px auto;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2{
+    margin-bottom:15px;
+    color:#1e293b;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th,
+table td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+table th{
+    background:#1e293b;
+    color:white;
+}
+
+.prediction{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.tag{
+    background:#2563eb;
+    color:white;
+    padding:10px 15px;
+    border-radius:8px;
+}
+
+.special{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.number{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#dc2626;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#666;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>六合彩分析预测中心</h1>
+    <p>历史开奖 · 今日预测 · 特码推荐</p>
+</header>
+
+<nav>
+    <a href="#history">历史开奖</a>
+    <a href="#prediction">今日预测</a>
+    <a href="#special">特码推荐</a>
+</nav>
+
+<div class="container">
+
+    <div class="card" id="prediction">
+        <h2>今日参考预测</h2>
+
+        <div class="prediction">
+            <div class="tag">龙</div>
+            <div class="tag">蛇</div>
+            <div class="tag">猴</div>
+            <div class="tag">鸡</div>
+            <div class="tag">鼠</div>
+            <div class="tag">羊</div>
+        </div>
+
+        <br>
+
+        <p>
+            本页面内容仅供娱乐参考，不构成任何中奖保证。
+        </p>
+    </div>
+
+    <div class="card" id="special">
+        <h2>今日特码参考</h2>
+
+        <div class="special">
+            <div class="number">08</div>
+            <div class="number">15</div>
+            <div class="number">22</div>
+            <div class="number">31</div>
+            <div class="number">44</div>
+        </div>
+    </div>
+
+    <div class="card" id="history">
+        <h2>历史开奖记录</h2>
+
+        <table>
+            <tr>
+                <th>日期</th>
+                <th>特码</th>
+                <th>生肖</th>
+            </tr>
+
+            <tr>
+                <td>2026-06-03</td>
+                <td>18</td>
+                <td>鼠</td>
+            </tr>
+
+            <tr>
+                <td>2026-06-02</td>
+                <td>42</td>
+                <td>虎</td>
+            </tr>
+
+            <tr>
+                <td>2026-06-01</td>
+                <td>27</td>
+                <td>羊</td>
+            </tr>
+
+            <tr>
+                <td>2026-05-31</td>
+                <td>11</td>
+                <td>鼠</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>冷热统计</h2>
+
+        <table>
+            <tr>
+                <th>生肖</th>
+                <th>近10期出现次数</th>
+            </tr>
+
+            <tr><td>龙</td><td>5</td></tr>
+            <tr><td>蛇</td><td>4</td></tr>
+            <tr><td>猴</td><td>6</td></tr>
+            <tr><td>鸡</td><td>5</td></tr>
+            <tr><td>鼠</td><td>7</td></tr>
+            <tr><td>羊</td><td>4</td></tr>
+
+        </table>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 六合彩分析预测中心<br>
+    本站仅供数据研究与娱乐参考，不提供投注服务。
+</footer>
+
+</body>
+</html>
